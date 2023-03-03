@@ -18,8 +18,7 @@ async def start(bot: Client, msg: Message):
           photo"https://telegra.ph/file/70663a8e4fde7e68ae311.jpg",
          caption=f"""**ʜᴇʏ✨❣️🥀 {msg.from_user.mention},
          
-ɪ'ᴍ ,
-
+ɪ'ᴍ {me2} ,
 ᴀ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ :@iro_bot_support***🥀""",
         reply_markup=InlineKeyboardMarkup(
