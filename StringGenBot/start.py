@@ -11,14 +11,11 @@ def filter(cmd: str):
 
 @Client.on_message(filter("start"))
 async def start(bot: Client, msg: Message):
-    text1 = await bot.send_message(msg.chat.id, f"ʜᴇʏ✨❣️🥀 `{msg.from_user.mention}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ!!")
-    await asyncio.sleep(1.5)
-    text2 = await text1.edit(f"ᴡᴀɪᴛ ʙᴀʙY✨❣️! ʟᴇᴛ ᴍᴇ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ \nꜱᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍʏ ᴘᴏᴡᴇʀ✨❣️🥀")
-    await asyncio.sleep(1.5)
-    await text2.delete()
-    await asyncio.sleep(1.5)
-    await msg.reply_photo(
-         "https://telegra.ph/file/70663a8e4fde7e68ae311.jpg",
+    alt = await bot.get_me()
+    me2 = alt.mention
+    await bot.send_photo(
+        chat_id=msg.chat.id,
+          photo"https://telegra.ph/file/70663a8e4fde7e68ae311.jpg",
          caption=f"""**ʜᴇʏ✨❣️🥀 {msg.from_user.mention},
          
 ɪ'ᴍ ,
