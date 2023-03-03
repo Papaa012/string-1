@@ -16,11 +16,7 @@ async def start(bot: Client, msg: Message):
     text2 = await text1.edit(f"ᴡᴀɪᴛ ʙᴀʙY✨❣️! ʟᴇᴛ ᴍᴇ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ \nꜱᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍʏ ᴘᴏᴡᴇʀ✨❣️🥀")
     await asyncio.sleep(1.5)
     await text2.delete()
-    stck = await bot.send_sticker(msg.chat.id, "CAACAgUAAx0CZTyC9AACuodj_0PLxhl1hCGd6b4rVnxXjnqxngACPQkAAhZu4FSOER0z_xq3Ly4E")
     await asyncio.sleep(1.5)
-    await stck.delete()
-    #alt = await bot.get_me()
-    #me2 = alt.mention
     await msg.reply_photo(
          "https://telegra.ph/file/70663a8e4fde7e68ae311.jpg",
          caption=f"""**ʜᴇʏ✨❣️🥀 {msg.from_user.mention},
